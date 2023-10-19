@@ -1,0 +1,8 @@
+GameType Hangout
+TypeOfLevel = Coop,Match,CTF
+Identifier = "hangout"
+Rules = GTR_FRIENDLY|GTR_NOSPECTATORSPAWN|GTR_NOTITLECARD|GTR_CAMPAIGN
+IntermissionType = int_none
+HeaderColor = 103
+Description = Chill out from the battles and races and relax with your friends in your favorite levels without a care in the world.
+#

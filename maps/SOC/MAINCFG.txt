@@ -1,0 +1,240 @@
+# Why not. Some of these maps may reset it anyway.
+MainCfg
+TutorialMap = Z0
+TitleMap = 99
+SmpStage_Start = 60
+
+Level HS
+LevelName = Home Sweet
+Act = 0
+Music = HSZ
+TypeOfLevel = Singleplayer,Co-op
+Levelselect = 2
+NextLevel = 1
+SelectHeading = Modern Hangout
+SkyNum = 302
+NoVisitNeeded = true
+
+Level 68
+Levelname = ƒHide & Seek Bedroom
+NoZone = 1
+NoVisitNeeded = 1
+Music = TUTORL
+TypeOfLevel = Singleplayer,Co-op,Match,Tag
+NextLevel = M0
+SkyboxScale = 5
+FlickyList = Bluebird,Chipmunk
+SelectHeading = Modern Hangout
+SkyNum = 40
+
+Level 69
+Levelname = SRB2 Station
+Act = 0
+NoZone = true
+Music = TUTORL
+TypeOfLevel = Singleplayer,Co-op,Competition,Race,Match,Tag,CTF
+NoVisitNeeded = 1
+NextLevel = 69
+SkyNum = 22
+LevelSelect = 1
+FlickyList = All
+SelectHeading = Modern Hangout
+
+Level 45
+LevelName = Hyper House
+Subtitle = Continued By: Hyper Sonic Jr
+SelectHeading = Classic Hangout
+novisitneeded = 1
+TypeOfLevel = Singleplayer,Co-op
+LevelSelect = 1
+NoZone = 1
+Music = APZ1
+NextLevel = 1
+SkyNum = 21
+
+Level 90
+Levelname = Dark Meadow
+Act = 0
+BonusType = None
+Music = DARKME
+NextLevel = 90
+TypeOfLevel = Co-op,Match,Tag
+NoVisitNeeded = 1
+Weather = 0
+SkyNum = 1
+TimeAttack = 0
+LevelSelect = 1
+NoReload = 0
+NoSSMusic = 1
+HideInStats = 1
+RecordAttack = 0
+SelectHeading = Classic Hangout
+
+Level B0
+LevelName = SRB2 HUB
+Subtitle = Gameplay Area
+Act = 0
+BonusType = None
+Music = SRBHUB
+NextLevel = B0
+TypeOfLevel = Singleplayer,Co-op
+NoVisitNeeded = 1
+SkyNum = 22
+TimeAttack = 0
+LevelSelect = 1
+NoReload = 0
+NoZone = 1
+NoSSMusic = 1
+HideInStats = 1
+RecordAttack = 0
+SelectHeading = Classic Hangout
+
+Level B1
+LevelName = SRB2 Hub
+Subtitle = Entrance
+Act = 0
+BonusType = None
+Music = SRBHUB
+NextLevel = B1
+TypeOfLevel = Singleplayer,Co-op
+NoVisitNeeded = 1
+SkyNum = 22
+LevelSelect = 1
+TimeAttack = 0
+NoReload = 0
+NoZone = 1
+NoSSMusic = 1
+RecordAttack = 0
+SelectHeading = Classic Hangout
+
+Level B2
+LevelName = SRB2 Hub
+Subtitle = Hangout Area
+Act = 0
+BonusType = None
+Music = SRBHUB
+NextLevel = B2
+TypeOfLevel = Singleplayer,Co-op
+NoVisitNeeded = 1
+SkyNum = 22
+TimeAttack = 0
+LevelSelect = 1
+NoReload = 0
+NoZone = 1
+NoSSMusic = 1
+HideInStats = 1
+RecordAttack = 0
+SelectHeading = Classic Hangout
+
+Level B3
+LevelName = SA City
+Act = 0
+NoZone = true
+Music = SACity
+TypeOfLevel = Singleplayer,Co-op
+NoVisitNeeded = 1
+SkyNum = 1
+LevelSelect = 1
+FlickyList = All
+SelectHeading = Classic Hangout
+
+Level B4
+Levelname = The House
+NoZone = true
+Act = 0
+SelectHeading = Classic Hangout
+novisitneeded = 1
+Music = HANGHO
+TypeOfLevel = Singleplayer,Co-op
+Skynum = 1
+LevelSelect = 1
+
+Level B5
+levelname = Beach House
+NoZone = true
+SubTitle = ^2Unofficial version 1.3^0
+act = 0
+SelectHeading = Classic Hangout
+novisitneeded = 1
+music = MP_COA
+skynum = 29
+weather = 0
+typeoflevel = Singleplayer,Co-op,Tag,Match
+nextlevel = 1
+
+Level B6
+LevelName = SRB2R City
+#Ported to 2.1 by vegeta183, and edited for 2.2 by Gemini0 and Poly
+Act = 0
+SelectHeading = Classic Hangout
+novisitneeded = 1
+Music = GFZTUN
+# "High Quality Rip" (maybe) of Tunnel (Rhythm Heaven [DS]/Rhythm Tengoku Gold) by Poly
+TypeOfLevel = Singleplayer,Co-op,Tag,Match
+SkyNum = 1
+NoZone = 1
+
+Level B7
+levelname = Green Hill Village
+act = 0
+Music = GHCity
+skynum = 29
+weather = 0
+TYPEOFLEVEL = Singleplayer,Coop
+NoVisitNeeded = 1
+LevelSelect = 1
+nextlevel = 1
+SelectHeading = Classic Hangout
+
+Level B8
+levelname = Greenflower Huge
+act = 0
+NoZone = true
+Music = GFZ1
+skynum = 1
+weather = 0
+TYPEOFLEVEL = Singleplayer,Coop
+NoVisitNeeded = 1
+LevelSelect = 1
+nextlevel = 1
+SelectHeading = Classic Hangout
+
+Level B9
+Levelname = Spare House
+Subtitle = Made by Shell/Skye
+Act = 0
+NoZone = true
+Music = SPRING
+weather = 0
+TYPEOFLEVEL = Singleplayer,Coop
+NoVisitNeeded = 1
+LevelSelect = 1
+nextlevel = 1
+SelectHeading = Classic Hangout
+
+Level GC
+LevelName = Shining City
+Subtitle = Incomplete!
+Act = 0
+Music = LOCOMS
+SkyNum = 9
+Weather = PRECIP_STORM_NOSTRIKES
+TYPEOFLEVEL = Singleplayer,Coop
+NoVisitNeeded = 1
+LevelSelect = 1
+nextlevel = 1
+SelectHeading = GemServ Exclusives
+
+Level GS
+Levelname = GemServ Hub
+Subtitle = Incomplete!
+Act = 0
+NoZone = true
+Music = TEK
+Weather = 0
+SkyNum = 117
+TYPEOFLEVEL = Singleplayer,Coop
+NoVisitNeeded = 1
+LevelSelect = 1
+NextLevel = 1
+SelectHeading = GemServ Exclusives
