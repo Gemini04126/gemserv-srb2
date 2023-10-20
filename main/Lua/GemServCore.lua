@@ -745,6 +745,8 @@ COM_AddCommand("findmap", function(p, name, ...)
 	CONS_Printf(p, "Changing map... (If nothing happens, try -force or -gametype!)")
 end)
 
+-- >G: todo: remove this shit, but add the names to the credits lump
+
 -------------------
 -- Terminal Help --
 -------------------
@@ -815,7 +817,7 @@ Testers:
   Puppyfaic, SeventhSentinel, Sonict,
   SonicX8000, Katmint
 
-The latest vanilla release can always be found at http://terminal.lightdash.org/!]]
+The latest vanilla release can always be found at http://terminal.lightdash.org/ (now defunct, please do not go there)!]]
 -- Do not remove these credits. Uncomment the below line if you've modified Terminal and wish to state this.
 		.."\n\nModifications for this server:\n  Alyssa\n  Shell\n  SSX\n  .Jazz."
 }

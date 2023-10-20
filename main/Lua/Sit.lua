@@ -29,10 +29,10 @@ local function switchState(player)
 	if ((player.mo.state == S_PLAY_STND) or (player.mo.state == S_PLAY_WAIT) or (player.mo.state == S_PLAY_WALK) or (player.mo.state == S_PLAY_RUN) or (player.mo.state == S_PLAY_EDGE)) and P_IsObjectOnGround(player.mo) then
 		if hasSit1 then
 			player.mo.state = S_PLAYSIT
-			storedHeight = player.mo.height
+			player.storedHeight = player.mo.height
 		end
 	elseif player.mo.state == S_PLAYSIT then
-		player.mo.height = storedHeight
+		player.mo.height = player.storedHeight
 		player.mo.state = S_PLAY_STND
 	end
 end
