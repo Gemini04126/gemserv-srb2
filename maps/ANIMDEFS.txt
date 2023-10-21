@@ -1,3 +1,0 @@
-Texture	Optional	MOVSA201  	Range	MOVSA210  	Tics 2
-Texture	Optional	MOVSA301  	Range	MOVSA308  	Tics 2
-Texture	Optional	MOVSG001  	Range	MOVSG010  	Tics 2
