@@ -126,8 +126,8 @@ maps
 				requiredarchives = "";
 			}
 		}
-		viewpositiony = 3874.425f;
-		viewpositionx = -643.1033f;
+		viewpositiony = -4680.552f;
+		viewpositionx = 4603.003f;
 		
 		testprecommand
 		{
@@ -147,11 +147,11 @@ maps
 			gridrotate = 0;
 			backscalex = 100;
 			gridoriginx = 0;
-			gridsize = 32;
+			gridsize = 128;
 			background = "";
 			backoffsety = 0;
 		}
-		viewscale = 1.461915f;
+		viewscale = 0.3028744f;
 		
 		reloadresourceprecommand
 		{
@@ -190,6 +190,7 @@ maps
 			sidedef
 			{
 				offsetx_bottom = 1;
+				offsety_bottom = 1;
 			}
 			
 			sector
@@ -199,10 +200,10 @@ maps
 				fadealpha = 0;
 				xpanningceiling = 1;
 				ypanningceiling = 1;
-				rotationceiling = 17;
+				rotationceiling = 1;
 				xpanningfloor = 1;
 				ypanningfloor = 1;
-				rotationfloor = 17;
+				rotationfloor = 1;
 				fadecolor = 0;
 			}
 		}
