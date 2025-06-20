@@ -1,2 +1,5 @@
 build
 *.pk3
+**/*.bak
+**/*.backup*
+**/*.dbs
