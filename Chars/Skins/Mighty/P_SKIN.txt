@@ -1,0 +1,5 @@
+name = Mighty
+prefcolor = Sunrise
+dsspndsh = sfx_shisd0
+thokitem = MT_GHOST
+spinitem = MT_GHOST

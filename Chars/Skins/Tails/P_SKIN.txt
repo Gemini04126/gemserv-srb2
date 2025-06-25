@@ -1,0 +1,7 @@
+name = tails
+nonightssuper = true
+prefcolor = tangerine
+thokitem = MT_GHOST
+spinitem = MT_GHOST
+super = true
+dsspndsh = sfx_shisd0

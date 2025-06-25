@@ -1,0 +1,8 @@
+name = metalsonic
+nonightssuper = true
+dsjump = sfx_cdfm02
+dsspndsh = sfx_shisd0
+thokitem = MT_GHOST
+spinitem = MT_GHOST
+ability = CA_NONE
+actionspd = 45

@@ -1,0 +1,8 @@
+name = sonic
+nonightssuper = true
+dashmode = true
+prefcolor = Sapphire
+supercolor = Kyukyoku
+dsspndsh = sfx_shisd0
+thokitem = MT_GHOST
+spinitem = MT_GHOST

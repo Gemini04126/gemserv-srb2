@@ -1,0 +1,6 @@
+name = knuckles
+nonightssuper = true
+prefcolor = Flame
+dsspndsh = sfx_shisd0
+thokitem = MT_GHOST
+spinitem = MT_GHOST

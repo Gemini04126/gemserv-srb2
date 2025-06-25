@@ -21,7 +21,16 @@ $(BUILD_DIR):
 # Generic rule to create a .pk3 file from a directory
 $(BUILD_DIR)/$(PK3_PREFIX)%.pk3: % $(BUILD_DIR)
 	@echo "Creating $@ from $<"
-	@zip -r $@ $<
+	@cd $< && find . -name "*.*" -printf "%p \n\0" | sort -z > hate.txt
+	@cat $</hate.txt
+# this seems to just compress everything in the "gemserv-srb2" folder, .git, build, and all.
+	@zip -r $@ $(file <$)
+# other failed attempts...
+#	@cd $< && zip -r ../$| .
+#	@find $< -exec for f in {}; do \
+		echo $f; \
+	done
+#	@zip -r $@ $<
 
 # Clean target: removes only the built .pk3 files
 .PHONY: clean
